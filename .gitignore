@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Generated data
+data/raw/cover/*
+!data/raw/cover/.gitkeep
+data/raw/secret/*
+!data/raw/secret/.gitkeep
+data/processed/blocks/*
+!data/processed/blocks/.gitkeep
+data/processed/activity_maps/*
+!data/processed/activity_maps/.gitkeep
+data/processed/metadata/*
+!data/processed/metadata/.gitkeep
+data/outputs/reconstructed/*
+!data/outputs/reconstructed/.gitkeep
+data/outputs/figures/*
+!data/outputs/figures/.gitkeep
+data/outputs/metrics/*
+!data/outputs/metrics/.gitkeep

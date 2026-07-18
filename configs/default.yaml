@@ -1,0 +1,17 @@
+profile_name: default
+description: Balanced placeholder profile for the Phase 1 scaffold.
+n: 3
+q: 8
+p_min: 1
+p_max: 4
+B: 1
+M: 12288
+M1: 8192
+M2: 4096
+epsilon: 0.01
+seed: 42
+noise_params:
+  depolarizing_probability: 0.0
+  thermal_relaxation_t1: null
+  thermal_relaxation_t2: null
+  readout_error: 0.0
