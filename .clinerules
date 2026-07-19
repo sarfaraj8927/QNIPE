@@ -1,0 +1,19 @@
+You are implementing the PA-QNIPE research paper.
+
+Rules:
+
+1. The uploaded paper is the single source of truth.
+2. The uploaded architecture is the implementation guide.
+3. Never invent filenames.
+4. Never redesign algorithms.
+5. Follow the architecture exactly.
+6. Implement only the requested module.
+7. Never modify unrelated files.
+8. Use Python 3.12.
+9. Follow PEP8.
+10. Use type hints.
+11. Write professional docstrings.
+12. Use logging.
+13. Create unit tests.
+14. If the paper and architecture conflict, ask before proceeding.
+15. Do not generate placeholder algorithms unless explicitly requested.
