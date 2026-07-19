@@ -2,27 +2,35 @@
 
 ## Snapshot
 
-- Date: July 18, 2026
-- Phase: 1 of 8
-- State: infrastructure package implemented
+- Date: July 19, 2026
+- Phase: 2 of 8
+- State: Classical preprocessing modules partially implemented
 
 ## Completed in This Phase
 
-- `src/paqnipe/utils/` created
-- `PAQNIPEConfig` added in `config_manager.py`
-- `ExperimentLogger` added in `logger.py`
-- package exports added in `src/paqnipe/utils/__init__.py`
-- repository automation added for formatting, linting, typing, tests, and CI
+- `src/paqnipe/classical/preprocessing/image_loader.py` - Implemented ImageLoader class with load_cover, load_secret, normalize_intensity methods
+- `src/paqnipe/classical/preprocessing/block_partitioner.py` - Implemented BlockPartitioner class with partition and reconstruct methods
+- Unit tests for both modules passing (11 tests)
+- Package exports added in `src/paqnipe/classical/preprocessing/__init__.py`
 
 ## Not Yet Implemented
 
-- all non-infrastructure PA-QNIPE modules remain intentionally unimplemented
+- activity_analyzer.py
+- adaptive_quantizer.py
+- normalization_engine.py
+- phase_encoder.py
+- secret_formatter.py
+- metadata_manager.py
+- All quantum modules (qram_oracle, magnitude_loader, phase_loader, etc.)
+- All decoding and evaluation modules
 
-## Exit Criteria for Phase 1
+## Exit Criteria for Phase 2
 
-- [x] `pyproject.toml` created
-- [x] CI workflow created
-- [x] pre-commit configuration created
-- [x] infrastructure package created
-- [x] `PAQNIPEConfig` implemented
-- [x] `ExperimentLogger` implemented
+- [x] ImageLoader implemented with tests
+- [x] BlockPartitioner implemented with tests
+- [ ] ActivityAnalyzer implemented with tests
+- [ ] AdaptiveQuantizer implemented with tests
+- [ ] NormalizationEngine implemented with tests
+- [ ] PhaseEncoder implemented with tests
+- [ ] SecretFormatter implemented with tests
+- [ ] MetadataManager implemented with tests
